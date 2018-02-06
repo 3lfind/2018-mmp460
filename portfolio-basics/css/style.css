@@ -1,5 +1,5 @@
 body{
-	font-family: helvetica,sans-serif;
+	font-family: Roboto,sans-serif;
 	font-size: 1.2em;
 	color:#54576D;
 	background-color:#FEE2D0;
@@ -8,28 +8,49 @@ body{
 
 
 h1{
-	font-size: 2.5em;
+	font-size: 3em;
 	font-weight:bolder;
-	padding: 0 0 2% 0;
-	color:#85AE9C;
-	
+	color:#A66E6C;
+	margin: 3% 5%;
 }
 h3{
-	font-size: 1.5em;
+	font-size: 1.4em;
+	background-color:#A66E6C;
+	color: #FEE2D0;
+	width:12%;
+	text-align: center;
 	
+}
+.partA{
+	border-top: 5px solid #665544;
+	border-left:5px solid #665544;
+	width: 80%;
+	margin: 0 5%;
+	padding: 2% ;
+
+}
+.partB{
+	border-top: 5px solid #665544;
+	border-bottom: 5px solid #665544;
+	border-right: 5px solid #665544;
+	width: 80%;
+	margin: 0 5%;
+	padding: 2%;
+
 }
 p, li{
 	letter-spacing: 0.01em;
-	line-height: 1.3em;
-	text-align: justify;
+	line-height: 1.4em;
 	font-kerning: auto;
+	text-align: justify;
+	
 }
 li{
-	list-style-type: decimal;
+	list-style-type:square;
 	padding: 1% 0;
 }
 
 #member{
 	font-style: italic;
-	font-size: 1em;
+	font-size: 0.9em;
 }
