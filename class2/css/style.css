@@ -1,0 +1,62 @@
+/**{
+    margin:0;
+    padding: 0;
+}*/
+body{
+    background-color: #eee;
+    font-family: Roboto sans-serif;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+#container{
+    width: 1200px;
+    margin:50px auto;
+    /*background-color: #fffeee;*/
+}
+/*typical tyle*/
+nav, header,.content, .sidebar, footer{
+    float: left;
+    margin:5px;
+    padding: 20px 40px;
+}
+nav, header, footer{
+    width:inherit;
+}
+
+.content{
+    width: 800px;
+}
+.sidebar{
+    width: 225px;
+    margin-right: 0;
+}
+
+/*nav style*/
+.nav li{
+    display: inline-block;
+    list-style-type: none;
+    font-size:1.4em;
+     -webkit-padding-start: 0px;
+    
+}
+.nav{
+   -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+.nav li a{
+     color: #a6a6a6;
+     text-decoration: none;
+}
+.home{
+    text-decoration: underline;
+}
+.portfolio a{
+    color: #a12123;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
