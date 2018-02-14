@@ -1,0 +1,25 @@
+.jumbotron{
+    background-image: url("https://unmistakablecreative.com/wp-content/uploads/2017/09/logo-skillshare.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 0;
+   margin-top:2.9em;
+}
+.jumbotron h1{
+    color: #000;
+    font-size: 3em;
+    font-weight: bolder;
+}
+body{
+
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    
+}
+.col-md-4{
+    padding:2em;
+}
+.col-md-4 h3{
+    font-size: 2em;
+}
